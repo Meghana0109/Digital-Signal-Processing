@@ -1,0 +1,3 @@
+Telephone Keypads generate Dual-Tone MultiFrequency(DTMF) signal when each of the key is dialled. There are 4 row and column frequencies, thus a set of two frequencies corresponding to each key. 
+When a key is dialled, corresponding sinusoidal signal is produced with the set of two frequencies. The signal is passed through bandpass digital filter and transmitted to the receiver end, where the signal is passed through a filter bank, containing 8 bandpass filters corresponding to each of the 8 frequencies. The generated output signal has a peak at the key's row and column frequencies.
+The row frequencies are low frequencies and column are high frequencies. The frequencies are selected such that the sum or difference of any two is not a multiple of any frequency or zero.
